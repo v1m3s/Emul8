@@ -1,0 +1,1 @@
+gcc main.c -o emul8 -std=c23 -Wall -Werror -fsanitize-trap -g $(sdl2-config --cflags --libs) -mconsole
